@@ -1,0 +1,81 @@
+/* :root {
+  --primary: #2ECC71;
+  --secondary: #1F3C88;
+  --accent: #1ABC9C;
+  --light-bg: #F4F6F7;
+  --dark-text: #2C3E50;
+}
+
+body {
+  background-color: var(--light-bg);
+  color: var(--dark-text);
+}
+
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(
+    135deg,
+    #2ECC71 0%,
+    #1ABC9C 100%
+  );
+  color: white;
+} */
+
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #1F3C88 0%,
+    #2ECC71 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.brand-text {
+  color: #2ECC71;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.hero-tagline {
+  font-size: 1rem;
+  opacity: 0.75;
+}
+
+/* Custom Buttons */
+.btn-primary-custom {
+  background-color: #2ECC71;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.btn-primary-custom:hover {
+  background-color: #27ae60;
+}
+
+.btn-outline-light-custom {
+  border: 2px solid white;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+.btn-outline-light-custom:hover {
+  background-color: white;
+  color: #1F3C88;
+}
