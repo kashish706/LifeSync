@@ -133,10 +133,6 @@ The application integrates with multiple external APIs:
 - **Products API** - Product catalog
 - **Countries API** - Geographic and travel information
 
-## 📝 License
-
-This project is open source and available for educational and personal use.
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
